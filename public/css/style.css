@@ -1,0 +1,204 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Container centralizado e responsivo */
+.container {
+  max-width: 1400px;
+  margin: 50px auto; /* Adiciona margem para centralizar */
+  padding: 20px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Títulos */
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Texto genérico */
+.text {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Formulário */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+/* Botões */
+.btn {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para a tela de boas-vindas */
+.welcome-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.welcome-container .btn-primary {
+  margin-top: 20px;
+}
+
+.welcome-container .count {
+  font-size: 48px;
+}
+
+/* Estilos para a tela de login */
+.login-container {
+  text-align: center;
+  padding: 40px;
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.login-container .title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para a lista de hoteis */
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta o número de colunas */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #666;
+}
+
+.rate {
+  color: #f39c12;
+  font-size: 16px;
+}
+
+.localizacao {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.descricao {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .container {
+      padding: 15px;
+  }
+
+  .card-list {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .card-body {
+      padding: 10px;
+  }
+}

@@ -1,0 +1,182 @@
+[
+    {
+        "id": "1",
+        "nome": "Hotel Trianon Paulista",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "estrelas": 4,
+        "descricao": "Localizado no coração de São Paulo, o Hotel Trianon Paulista oferece acomodações confortáveis e acesso fácil aos principais pontos turísticos da cidade, como o Parque Trianon e a Avenida Paulista.",
+        "imagem": "hotel_trianon_paulista.jpg"
+    },
+    {
+        "id": "2",
+        "nome": "Hotel Bahia do Sol",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "estrelas": 3,
+        "descricao": "Com uma vista privilegiada para a Baía de Todos os Santos, o Hotel Bahia do Sol oferece um ambiente acolhedor e praticidade para quem deseja explorar as belezas de Salvador.",
+        "imagem": "hotel_bahia_do_sol.jpg"
+    },
+    {
+        "id": "3",
+        "nome": "Hotel Copacabana Palace",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "estrelas": 5,
+        "descricao": "Um dos hotéis mais icônicos do Brasil, o Copacabana Palace oferece luxo e sofisticação à beira da famosa praia de Copacabana, com excelentes opções de gastronomia e lazer.",
+        "imagem": "hotel_copacabana_palace.jpg"
+    },
+    {
+        "id": "4",
+        "nome": "Hotel Ibis Paulista",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "estrelas": 3,
+        "descricao": "Com localização estratégica na Avenida Paulista, o Ibis Paulista oferece praticidade e conforto a um preço acessível, ideal para quem visita São Paulo a negócios ou lazer.",
+        "imagem": "hotel_ibis_paulista.jpg"
+    },
+    {
+        "id": "5",
+        "nome": "Hotel Nacional Inn",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "estrelas": 3,
+        "descricao": "O Hotel Nacional Inn em Brasília oferece um ambiente moderno e aconchegante, com fácil acesso aos principais pontos turísticos e áreas comerciais da capital federal.",
+        "imagem": "hotel_nacional_inn.png"
+    },
+    {
+        "id": "6",
+        "nome": "Hotel Fasano",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "estrelas": 5,
+        "descricao": "O Hotel Fasano é um sinônimo de elegância e excelência. Localizado no Jardim Paulista, é famoso pelo serviço impecável, gastronomia de alta qualidade e ambiente sofisticado.",
+        "imagem": "hotel_fasano.jpg"
+    },
+    {
+        "id": "7",
+        "nome": "Hotel Othon",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "estrelas": 4,
+        "descricao": "Situado em Copacabana, o Hotel Othon oferece uma experiência única com sua vista para o mar, além de contar com infraestrutura moderna e serviços de alta qualidade.",
+        "imagem": "hotel_othon.jpg"
+    },
+    {
+        "id": "8",
+        "nome": "Hotel Porto Real",
+        "cidade": "Angra dos Reis",
+        "estado": "RJ",
+        "estrelas": 4,
+        "descricao": "Localizado em Angra dos Reis, o Hotel Porto Real é ideal para quem busca descanso e lazer, com uma vista deslumbrante para o mar e uma infraestrutura completa.",
+        "imagem": "hotel_porto_real.jpg"
+    },
+    {
+        "id": "9",
+        "nome": "Hotel Deville Prime",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "estrelas": 4,
+        "descricao": "O Hotel Deville Prime Curitiba oferece conforto e qualidade com uma localização privilegiada, ideal para quem visita a cidade a negócios ou turismo.",
+        "imagem": "hotel_deville_prime.jpg"
+    },
+    {
+        "id": "10",
+        "nome": "Hotel Caesar Park",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "estrelas": 5,
+        "descricao": "O Caesar Park é um hotel de luxo na praia de Ipanema, oferecendo uma vista espetacular do mar e serviços de alto nível para uma estadia memorável.",
+        "imagem": "hotel_caesar_park.jpg"
+    },
+    {
+        "id": "11",
+        "nome": "Hotel Blue Tree",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "estrelas": 4,
+        "descricao": "O Hotel Blue Tree Paulista oferece conforto e conveniência em um dos bairros mais movimentados de São Paulo, com fácil acesso a atrações turísticas e comerciais.",
+        "imagem": "hotel_blue_tree.jpg"
+    },
+    {
+        "id": "12",
+        "nome": "Hotel Sol Bahia",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "estrelas": 3,
+        "descricao": "Com uma localização privilegiada em Salvador, o Hotel Sol Bahia oferece conforto e praticidade para quem deseja explorar a cidade e suas famosas praias.",
+        "imagem": "hotel_sol_bahia.jpg"
+    },
+    {
+        "id": "13",
+        "nome": "Hotel Meliá",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "estrelas": 4,
+        "descricao": "O Hotel Meliá Rio está localizado em Copacabana, com uma infraestrutura completa e uma vista espetacular para o mar, ideal para relaxar após um dia de passeios.",
+        "imagem": "hotel_melia.jpg"
+    },
+    {
+        "id": "14",
+        "nome": "Hotel Intercontinental",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "estrelas": 5,
+        "descricao": "O Hotel Intercontinental São Paulo oferece luxo e sofisticação em pleno centro financeiro da cidade, com acomodações de alto padrão e uma vista deslumbrante.",
+        "imagem": "hotel_intercontinental.jpg"
+    },
+    {
+        "id": "15",
+        "nome": "Hotel Vitoria",
+        "cidade": "Vitória",
+        "estado": "ES",
+        "estrelas": 3,
+        "descricao": "O Hotel Vitória é uma opção confortável e acessível, com localização estratégica e infraestrutura adequada para quem visita a capital capixaba.",
+        "imagem": "hotel_vitoria.jpg"
+    },
+    {
+        "id": "16",
+        "nome": "Hotel Bristol",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "estrelas": 4,
+        "descricao": "O Hotel Bristol em Belo Horizonte oferece excelente infraestrutura e localização privilegiada, ideal tanto para turistas quanto para quem está a negócios na cidade.",
+        "imagem": "hotel_bristol.jpg"
+    },
+    {
+        "id": "17",
+        "nome": "Hotel Royal Tulip",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "estrelas": 5,
+        "descricao": "O Royal Tulip Brasília é um hotel de luxo com localização privilegiada, oferecendo acomodações elegantes e excelentes serviços para uma experiência inesquecível.",
+        "imagem": "hotel_royal_tulip.jpg"
+    },
+    {
+        "id": "18",
+        "nome": "Hotel Quality",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "estrelas": 3,
+        "descricao": "Com um conceito de praticidade e conforto, o Hotel Quality São Paulo é ideal para quem busca uma estadia sem complicações, próximo aos principais centros de negócios e turismo.",
+        "imagem": "hotel_quality.jpg"
+    },
+    {
+        "id": "19",
+        "nome": "Hotel Ponta das Canas",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "estrelas": 3,
+        "descricao": "Localizado em uma das praias mais tranquilas de Florianópolis, o Hotel Ponta das Canas oferece conforto e um ambiente familiar, ideal para quem deseja relaxar e curtir a natureza.",
+        "imagem": "hotel_ponta_das_canas.jpg"
+    },
+    {
+        "id": "20",
+        "nome": "Hotel Laje de Pedra",
+        "cidade": "Gramado",
+        "estado": "RS",
+        "estrelas": 4,
+        "descricao": "O Hotel Laje de Pedra em Gramado oferece um ambiente acolhedor, com uma vista panorâmica para as montanhas e a charmosa cidade, perfeito para quem deseja relaxar na serra gaúcha.",
+        "imagem": "hotel_laje_de_pedra.jpg"
+    }
+]
