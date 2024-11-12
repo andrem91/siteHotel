@@ -21,8 +21,12 @@ app.get("/listaHoteis", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "listaHoteis.html"));
 });
 
-app.get("/hotel/:id", (req, res) => {
-  const id = req.params.id;
+// app.get("/hotel", (req, res) => {
+//   const id = req.params.id;
+//   res.sendFile(path.join(__dirname, "public", "hotel.html"));
+// });
+
+app.get("/hotel", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "hotel.html"));
 });
 
