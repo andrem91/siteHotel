@@ -12,6 +12,7 @@ fetch("http://localhost:8080/hoteis")
             <span class="rate">${getEstrelas(hotel.estrelas)}</span>
 						<p class="card-text localizacao">${hotel.cidade} - ${hotel.estado}</p>
 						<p class="card-text descricao">${hotel.descricao}</p>
+            <button type="button" class="btn btn-primary" onclick="acessarInfo(${hotel.id})">Saiba mais</button>
 					</div>
         </div>
         `;
@@ -29,4 +30,8 @@ function getEstrelas(quantidade) {
     estrelas += "⭐";
   }
   return estrelas;
+}
+
+function acessarInfo(id) {
+  window.location.href = `/hotel/${id}`
 }

@@ -171,6 +171,7 @@ a:hover {
 .card-text {
   font-size: 14px;
   color: #666;
+  margin-bottom: 20px;
 }
 
 .rate {
