@@ -21,13 +21,17 @@ app.get("/listaHoteis", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "listaHoteis.html"));
 });
 
-// app.get("/hotel", (req, res) => {
-//   const id = req.params.id;
-//   res.sendFile(path.join(__dirname, "public", "hotel.html"));
-// });
-
 app.get("/hotel", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "hotel.html"));
+});
+
+app.get("/hotel/:id", (req, res) => {
+  const hotel = hoteis.find((hotel) => hotel.id === req.params.id);
+  if (hotel) {
+    res.json(hotel);
+  } else {
+    res.status(404).send("Hotel não encontrado");
+  }
 });
 
 app.get("/hoteis", (req, res) => {

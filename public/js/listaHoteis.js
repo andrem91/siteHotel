@@ -33,5 +33,5 @@ function getEstrelas(quantidade) {
 }
 
 function acessarInfo(id) {
-  window.location.href = `/hotel?id=${id}`
+  window.location.href = `/hotel?id=${id}`;
 }
